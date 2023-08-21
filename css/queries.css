@@ -1,0 +1,341 @@
+/* *********************** */
+/* BELOW 1344PX (Smaller Desktops) */
+/* *********************** */
+
+@media (max-width: 84em) {
+  html {
+    font-size: 61%;
+  }
+  .wrapper .welcome .welcome-info {
+    gap: 8.4rem;
+  }
+  /* ///////////////////////////////////// */
+}
+/* *********************** */
+
+/* *********************** */
+/* BELOW 1200PX (Landscape Taplets) */
+/* *********************** */
+
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+  .wrapper {
+    gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .wrapper .welcome .welcome-head .welcome-img {
+    width: 160px;
+    height: 80px;
+  }
+  .wrapper .welcome .avatar-img {
+    width: 54px;
+    height: 54px;
+    bottom: -26px;
+  }
+  /* ///////////////////////////////////// */
+  .profile-page .info-title h2 {
+    font-size: 14px;
+  }
+  .profile-page .skills .langs div {
+    gap: 5px;
+  }
+  .profile-page .skills p {
+    font-size: 12px;
+    padding: 0.4rem 1rem;
+  }
+}
+/* *********************** */
+
+/* *********************** */
+/* BELOW 944PX (Taplets) */
+/* *********************** */
+
+@media (max-width: 59em) {
+  html {
+    font-size: 58%;
+  }
+  .sidebar {
+    width: 200px;
+    padding: 16px;
+  }
+  .page ul {
+    gap: 1rem;
+  }
+  /* ///////////////////////////////////// */
+  .profile-page .profile-info {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.8rem 0;
+  }
+  .profile-info .info-title,
+  .profile-info .info-body {
+    margin-left: 0;
+    width: 100%;
+  }
+  .profile-info .info-body {
+    width: 100%;
+    border-left: none;
+  }
+  .profile-page .skills .langs div {
+    flex-direction: column;
+  }
+  .profile-page .activities .activity {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  /* ///////////////////////// */
+  .courses-page {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  .course .course-teacher {
+    width: 50px;
+    height: 50px;
+  }
+  /* ///////////////////////// */
+  .plans-page {
+    grid-template-columns: 1fr;
+  }
+}
+/* *********************** */
+
+/* *********************** */
+/* BELOW 704PX (Smaller Taplets) */
+/* *********************** */
+
+@media (max-width: 44em) {
+  html {
+    font-size: 56%;
+  }
+  .sidebar {
+    width: fit-content;
+    padding: 10px;
+  }
+  .page ul {
+    gap: 0.9rem;
+  }
+  .page ul li a span {
+    display: none;
+  }
+  .page ul li a i {
+    margin: 0 auto;
+  }
+  .sidebar > h3 {
+    font-size: 1.6rem;
+    margin-bottom: 42px;
+  }
+  .sidebar > h3 span {
+    font-size: 2rem;
+  }
+  .sidebar > h3::before,
+  .sidebar > h3::after {
+    display: none;
+  }
+  .txt-c-mobile {
+    text-align: center;
+  }
+  .page h1 {
+    font-size: 2.8rem;
+  }
+  /* ///////////////////////////////////// */
+  .wrapper {
+    grid-template-columns: minmax(200px, 1fr);
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+  }
+  .wrapper .welcome .welcome-info {
+    flex-direction: column;
+    margin-top: 4.8rem;
+    margin-bottom: 2.4rem;
+    gap: 20px;
+  }
+  .wrapper .welcome .welcome-head .welcome-img {
+    display: none;
+  }
+  .wrapper .welcome .avatar-img {
+    margin-top: -2.4rem;
+    width: 48px;
+    height: 48px;
+    border: 2px solid #fff;
+    bottom: -24px;
+    left: calc(50% - 24px);
+  }
+  .wrapper .welcome .welcome-head h2 {
+    font-size: 2.4rem;
+  }
+  .progress .progress-body::before {
+    display: none;
+  }
+  .progress .progress-body li::before {
+    width: 16px;
+    height: 16px;
+  }
+  /* ///////////////////////////////////// */
+  .settings-page {
+    grid-template-columns: minmax(100px, 1fr);
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+  }
+  .toggle-swich {
+    width: 62px;
+    height: 24px;
+  }
+  .toggle-swich::before {
+    width: 18px;
+    height: 18px;
+    top: 3px;
+    left: 4px;
+  }
+  .toggle-checkbox:checked + .toggle-swich::before {
+    left: 42px;
+  }
+  /* ///////////////////////////////////////// */
+  .profile-info .info-title img {
+    width: 100px;
+    height: 100px;
+  }
+  .profile-page .toggle-swich {
+    width: 60px;
+  }
+  .profile-page .t-info {
+    height: 180px;
+  }
+  .profile-page .t-info div {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .profile-continue {
+    flex-direction: column;
+  }
+  .profile-page .skills {
+    width: 100%;
+  }
+  .profile-page .skills .langs div {
+    flex-direction: row;
+  }
+  .profile-page .activities {
+    width: 100%;
+  }
+  .profile-page .activities .activity {
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+  }
+  /* /////////////////////////////////////////// */
+  .projects-page {
+    grid-template-columns: 1fr;
+  }
+  .projects-page .project-main {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 5px;
+  }
+  .projects-page .project-main span {
+    width: fit-content;
+  }
+  .projects-page .project-tail {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .projects-page .project-tail .project-progress {
+    width: 50%;
+  }
+  .projects-page .project-team img {
+    width: 35px;
+    height: 35px;
+  }
+  /* ////////////////////////////////// */
+  .friend img {
+    width: 80px;
+    height: 80px;
+  }
+  /* ////////////////////////////////// */
+  .files-page {
+    flex-direction: column;
+  }
+  .files-page .files,
+  .files-page .files-statistics {
+    width: 93%;
+  }
+  .files-page .files-statistics {
+    margin: 20px;
+    height: 380px;
+  }
+}
+/* *********************** */
+
+/* *********************** */
+/* BELOW 544PX (phones) */
+/* *********************** */
+
+@media (max-width: 34em) {
+  html {
+    font-size: 54%;
+  }
+  .page ul {
+    gap: 0.8rem;
+  }
+  .page h1 {
+    font-size: 2.6rem;
+  }
+  .head .search input {
+    display: none;
+  }
+  /* ///////////////////////////////////// */
+  .wrapper .welcome .welcome-head h2 {
+    font-size: 2.4rem;
+  }
+  .tickets .tickets-body {
+    grid-template-columns: 1fr;
+  }
+  .news .news-body .n .p p:nth-child(2) {
+    display: none;
+  }
+  .progress img {
+    display: none;
+  }
+  .progress .progress-body li::before {
+    width: 12px;
+    height: 12px;
+  }
+  .social ul li p {
+    display: none;
+  }
+  /* ///////////////////////////////////// */
+  .backup .servers {
+    flex-wrap: wrap;
+  }
+  /* /////////////////////////////////////// */
+  .profile-page .activities .activity {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  /* ////////////////////////////////// */
+  .friends-page {
+    grid-template-columns: 1fr;
+  }
+  .friend-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  /* ////////////////////////////////// */
+  .files-page .files {
+    grid-template-columns: 1fr;
+  }
+  .files-page .files,
+  .files-page .files-statistics {
+    width: 85%;
+  }
+}
+/* *********************** */
